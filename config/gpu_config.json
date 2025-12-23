@@ -1,0 +1,32 @@
+{
+  "gpu_settings": {
+    "auto_select_device": true,
+    "memory_fraction": 0.8,
+    "enable_mixed_precision": false,
+    "enable_cudnn_benchmark": true,
+    "clear_cache_frequency": 10,
+    "force_cpu": false
+  },
+  "training_settings": {
+    "batch_size_gpu": 64,
+    "batch_size_cpu": 32,
+    "num_workers_gpu": 4,
+    "num_workers_cpu": 2,
+    "pin_memory": true,
+    "prefetch_factor": 2
+  },
+  "monitoring": {
+    "enable_gpu_monitoring": true,
+    "monitoring_interval": 5,
+    "save_monitoring_data": true,
+    "monitoring_log_path": "logs/gpu_monitoring.json",
+    "alert_temperature_threshold": 85,
+    "alert_memory_threshold": 90
+  },
+  "optimization": {
+    "enable_gradient_checkpointing": false,
+    "enable_amp": false,
+    "compile_model": false,
+    "use_channels_last": false
+  }
+}
