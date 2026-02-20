@@ -32,7 +32,7 @@ AirGuardian 是一个集成了 LSTM 深度学习模型和大语言模型（LLM�
 - Python 3.9 或更高版本
 - uv (推荐) 或 pip 包管理器
 - Ollama (用于 LLM 分析功能)
-- NVIDIA GPU (可选，用于加速推理)
+- NVIDIA GPU 或 Apple Silicon (可选，用于加速推理)
 
 ### 安装步骤
 
