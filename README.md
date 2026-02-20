@@ -39,8 +39,8 @@ AirGuardian 是一个集成了 LSTM 深度学习模型和大语言模型（LLM�
 #### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-org/air-guardian.git
-cd air-guardian
+git clone https://github.com/yxqsuperrabbit-cpu/environmental-aiagent.git
+cd environmental-aiagent
 ```
 
 #### 2. 创建虚拟环境
